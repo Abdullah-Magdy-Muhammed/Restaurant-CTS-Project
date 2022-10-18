@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <form method="get" action="#">
+      <div class="container">
+        <h1>Register</h1>
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+
+        <label>Password</label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <label>Repeat Password</label>
+        <input
+          type="password"
+          placeholder="Repeat Password"
+          name="psw-repeat"
+          required
+        />
+        <p>
+          By creating an account you agree to our
+          <a href="#">Terms & Privacy</a>.
+        </p>
+
+        <button type="submit">Register</button>
+      </div>
+
+      <div class="container signin">
+        <p>Already have an account? <a href="../login/login.html">Login</a>.</p>
+      </div>
+    </form>
+  </body>
+</html>
