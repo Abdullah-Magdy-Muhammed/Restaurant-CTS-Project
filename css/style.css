@@ -72,7 +72,7 @@ body {
 }
 .right img {
   width: 95%;
-  border: 5px solid rgb(252, 252, 105);
+  border: 2px dashed rgb(252, 252, 105);
 }
 
 /* Login Page and Rigster*/
@@ -101,7 +101,9 @@ button {
   margin: 10px auto;
   width: 100%;
 }
-
+.container input[type="checkbox"] {
+  margin-right: 10px;
+}
 .container button {
   background-color: black;
   color: white;
@@ -183,4 +185,35 @@ button {
   color: rgb(252, 252, 105);
   text-align: center;
   margin-top: 10px;
+}
+/* Blog Page */
+.blog {
+  width: 95%;
+  margin-left: 60px;
+}
+.blog img {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.blog h2,
+.blog p {
+  color: white;
+  margin-bottom: 5px;
+  line-height: 1.5em;
+}
+.first,
+.second,
+.thrid {
+  width: 30%;
+  display: inline-block;
+  margin-right: 20px;
+}
+.first:hover,
+.second:hover,
+.thrid:hover {
+  background-color: rgb(252, 252, 105);
 }
