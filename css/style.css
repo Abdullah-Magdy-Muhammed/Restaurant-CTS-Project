@@ -155,3 +155,32 @@ button {
 .about h1 {
   color: white;
 }
+
+/* Males Page */
+.header h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 48px;
+}
+.content {
+  margin-left: auto;
+  width: 95%;
+}
+.pic {
+  width: 18%;
+  display: inline-block;
+}
+.pic img {
+  display: inline-block;
+  padding: 15px;
+}
+.content h3 {
+  color: white;
+  text-align: center;
+}
+.content h4 {
+  color: rgb(252, 252, 105);
+  text-align: center;
+  margin-top: 10px;
+}
