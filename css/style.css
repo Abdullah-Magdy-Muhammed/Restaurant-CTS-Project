@@ -28,6 +28,7 @@ body {
 .icon:hover {
   border: 2px solid rgb(252, 252, 105);
   border-radius: 30%;
+  cursor: pointer;
   -webkit-border-radius: 30%;
   -moz-border-radius: 30%;
   -ms-border-radius: 30%;
@@ -57,6 +58,7 @@ body {
   color: black;
   border: none;
   background-color: rgb(252, 252, 105);
+  cursor: pointer;
 }
 /* main of our landing page */
 .main {
@@ -72,6 +74,7 @@ body {
   color: black;
   border: none;
   background-color: rgb(252, 252, 105);
+  cursor: pointer;
 }
 .left h2 {
   font-size: 36px;
